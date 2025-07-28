@@ -32,7 +32,7 @@ SimpleCounter.propTypes = {
   digFour: PropTypes.number
 };
 
-function App() {
+function Count() {
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
@@ -52,6 +52,6 @@ function App() {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Count />
   </React.StrictMode>
 );
