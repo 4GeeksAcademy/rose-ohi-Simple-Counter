@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.pgCounter div{
+
+    display: inline-block;
+    font-size: 100px;
+    /* line-height: 20px; */
+    /* height: 20px; */
+    padding: 10px;
+    background-color: aquamarine;
+    color: hotpink;
+    margin-top: 25%;
+    width: 15%;
+}
+
+.pgCounter{
+    /* display: inline-block; */
+    text-align: center;
+}
